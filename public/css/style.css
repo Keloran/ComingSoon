@@ -332,3 +332,7 @@ span.show-tooltip-text {
 	font-weight: normal;
 }
 /* ============================ END TITLE CSS EFFECT ============================ */
+.top_line {
+  color: #FFFFFF;
+  text-align: center;
+}
