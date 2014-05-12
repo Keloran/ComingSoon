@@ -1,0 +1,10 @@
+# Logfile created on 2014-05-12 08:22:14 +0000 by logger.rb/44203
+I, [2014-05-12T08:22:14.981400 #5467]  INFO -- : 0:  daemons (1.1.9) from /home/action/.rvm/gems/ruby-2.1.0/specifications/daemons-1.1.9.gemspec
+I, [2014-05-12T08:23:16.359277 #5467]  INFO -- : 0:  eventmachine (1.0.3) from /home/action/.rvm/gems/ruby-2.1.0/specifications/eventmachine-1.0.3.gemspec
+I, [2014-05-12T08:23:19.768701 #5467]  INFO -- : 0:  tilt (1.4.1) from /home/action/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-05-12T08:23:24.797309 #5467]  INFO -- : 0:  haml (4.0.5) from /home/action/.rvm/gems/ruby-2.1.0/specifications/haml-4.0.5.gemspec
+I, [2014-05-12T08:23:28.974124 #5467]  INFO -- : 0:  rack (1.5.2) from /home/action/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-05-12T08:23:31.838131 #5467]  INFO -- : 0:  rack-protection (1.5.2) from /home/action/.rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.2.gemspec
+I, [2014-05-12T08:23:36.263612 #5467]  INFO -- : 0:  sinatra (1.4.4) from /home/action/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-05-12T08:23:47.597321 #5467]  INFO -- : 0:  thin (1.6.1) from /home/action/.rvm/gems/ruby-2.1.0/specifications/thin-1.6.1.gemspec
+I, [2014-05-12T08:23:47.599883 #5467]  INFO -- : 0:  bundler (1.5.0) from /home/action/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.0.gemspec
