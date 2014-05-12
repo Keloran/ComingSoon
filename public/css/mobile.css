@@ -1,0 +1,23 @@
+.container {
+  width: 696px;
+}
+.container .content {
+  width: 696px;
+}
+.container .sidebar {
+  display: none !important;
+}
+.container .content .top_line {
+  height: 50px;
+  font-size: 2.7em;
+  padding-top: 20px;
+}
+#footer {
+  width: 696px;
+  font-size: 1.2em;
+  position: absolute;
+  bottom: -120px;
+}
+#footer .container {
+  text-align: center;
+}

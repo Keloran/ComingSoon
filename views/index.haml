@@ -7,9 +7,10 @@
     %meta{:charset => "utf-8"}
     %meta{:name => "description", :content => "CarPrk Coming Soon"}
     %meta{:name => "keywords", :content => "CarPrk, Car Park, CarPark, Contract Car Parking, Contract CarParking, Contract Parking"}
-    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=0.55"}
     
     %link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "css/mobile.css", :rel => "stylesheet", :type => "text/css", :media => "only screen and (max-width: 696px)"}
     %link{:href => "images/favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}
     
     %script{:type => "text/javascript", :src => "http://code.jquery.com/jquery-1.7.2.js"}
@@ -32,8 +33,6 @@
           %div{:class => "twitt"}
             %div{:class => "twitter"}
               %div{:class => "wt_twitter"}
-                - client.home_timeline.each do |result|
-                  = result.inspect
                   
             %div{:class => "arrow_twitt"}
           %ul{:class => "social_icons"}
