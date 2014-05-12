@@ -14,6 +14,7 @@
     
     %script{:type => "text/javascript", :src => "http://code.jquery.com/jquery-1.7.2.js"}
     %script{:type => "text/javascript", :src => "js/options.js"}
+    %script{:type => "text/javascript", :src => "js/mobile.js"}
     
   %body
     %div{:class => "container"}
@@ -29,7 +30,11 @@
         
         %div{:class => "social"}
           %div{:class => "twitt"}
-            %div{:class => "twitter", :data => {:user => "@carprk", :posts => 3}}
+            %div{:class => "twitter"}
+              %div{:class => "wt_twitter"}
+                - client.home_timeline.each do |result|
+                  = result.inspect
+                  
             %div{:class => "arrow_twitt"}
           %ul{:class => "social_icons"}
             %li

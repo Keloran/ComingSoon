@@ -148,6 +148,7 @@ $(document).ready(function(){
     });
     
     /* ================= TWITTER PLUGIN ================= */
+  /**
     (function( $ ) {
         $.fn.wt_twitter = function(options) {
             var linkify = function(text){
@@ -229,7 +230,7 @@ $(document).ready(function(){
             $('.wt_twitter_post').eq(i).fadeIn('slow')
         })
     },6000)
-    
+    */
     
 });
 
